@@ -1,0 +1,48 @@
+/* Container for the Orders page */
+.orders-container {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+/* Table styling */
+.order-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-list th,
+.order-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-list th {
+    background-color: #f4f4f4;
+}
+
+.order-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.order-list tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.order-list button {
+    border: none;
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-list button:hover {
+    background-color: #218838;
+}

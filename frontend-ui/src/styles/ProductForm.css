@@ -1,0 +1,77 @@
+/* Container for the Products page */
+.products-container {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+/* Form styling */
+.product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.product-form input,
+.product-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-form button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+.product-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-list th,
+.product-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-list th {
+    background-color: #f4f4f4;
+}
+
+.product-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-list tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.product-list button {
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-list button:hover {
+    background-color: #c82333;
+}
